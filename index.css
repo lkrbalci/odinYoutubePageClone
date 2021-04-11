@@ -55,12 +55,12 @@ header {
 .columns {
     width: 94%;
     height: 100vh;
-    margin: 0 auto;
+    margin: auto;
     background-color: chocolate;
 }
 
 .mainColumn {
-  display: inline;
+  float:left;
     width: 70%;
     background-color: brown;
     height: 800px;
@@ -68,12 +68,34 @@ header {
 }
 
 .rightColumn {
-  display: inline;
-    width:25%;
+  float: left;
+    width:29%;
     background-color: crimson;
+    margin-left: 1%;
     height: 800px;
     margin-top: 56px;
 }
 .frame {
-  padding: 6%
+  padding: 6%;
+}
+
+.tags {
+  margin: 10px 0;
+}
+
+.tags a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: 400;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+.views {
+  font-size: 1.2em;
+  margin: 20px 0;
+  color: grey;
 }
