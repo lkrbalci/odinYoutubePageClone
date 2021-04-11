@@ -99,3 +99,13 @@ h3 {
   margin: 20px 0;
   color: grey;
 }
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info div * {
+  float: left;
+  align-items: center;
+}
