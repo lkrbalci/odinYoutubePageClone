@@ -8,7 +8,33 @@
     <link rel="stylesheet" media="all" href="index.css" />
   </head>
   <body>
-    <header class="youtubeHeader"></header>
+    <header class="youtubeHeader">
+      <div class="logo">
+        <img
+          src="./images/hamburgerImage.svg"
+          alt="hamburger"
+          class="hamburger"
+        />
+        <img src="./images/logo.svg" alt="logo" class="logo" />
+      </div>
+      <div class="search">
+        <input type="text" name="search" placeholder="Search" id="search" />
+        <button>
+          <img src="./images/magneto.svg" alt="magneto" class="magneto" />
+        </button>
+        <img src="./images/microphone.svg" alt="microphone" class="mic" />
+      </div>
+      <div class="else">
+        <img src="./images/addVideo.svg" alt="add" class="add" />
+        <img src="./images/dotsCube.svg" alt="dots" class="dots" />
+        <img src="./images/alert.svg" alt="" class="alert" />
+        <img
+          src="./images/avatar_720-vflYJnzBZ.png"
+          alt="avatar"
+          class="avatar"
+        />
+      </div>
+    </header>
     <div class="columns">
       <div class="mainColumn">
         <div class="frame">
@@ -23,36 +49,203 @@
           ></iframe>
           <div class="tags"><a href="#">#odin</a> <a href="#">#study</a></div>
           <h3>Title for this video</h3>
-          <div class="info">
-            <h5 class="views">121.234.123 views • Apr 11, 2021</h5>
+        </div>
+        <div class="info">
+          <h5 class="views">121.234.123 views • Apr 11, 2021</h5>
+          <div class="thumbs">
             <div class="likes">
-              <img src="./images/thumb-up.svg" alt="thumb up" class="thumbs" />
+              <img src="./images/thumb-up.svg" alt="thumb up" class="thumb" />
               <p>894</p>
             </div>
             <div class="dislikes">
               <img
                 src="./images/thumb-down.svg"
                 alt="thumb down"
-                class="thumbs"
+                class="thumb"
               />
               <p>5</p>
             </div>
-            <div class="sharing">
-              <img src="./images/share.svg" alt="share" class="share" />
-              <p>SHARE</p>
+          </div>
+          <div class="sharing">
+            <img src="./images/share.svg" alt="share" class="share" />
+            <p>SHARE</p>
+          </div>
+          <div class="saving">
+            <img src="./images/playlist-plus.svg" alt="save" class="save" />
+            <p>SAVE</p>
+          </div>
+        </div>
+        <div class="secondaryInfo">
+          <img
+            src="./images/channelImage.jpg"
+            alt="channel image"
+            class="channelImage"
+          />
+          <div class="channelTitle">
+            <h3>Somebodys dear channel</h3>
+            <p class="subsNum">45 subscribers</p>
+            <p class="detailText">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <button class="subscribeButton">SUBSCRIBE</button>
+        </div>
+        <div class="commentsDiv">
+          <div class="commentHeader">
+            <h2 class="replyNum">659 Comments</h2>
+            <img src="./images/sort-variant.svg" alt="sort" class="sort" />
+            <h2 class="sortText">SORT BY</h2>
+          </div>
+          <div class="addComment">
+            <img
+              height="48px"
+              width="48px"
+              src="./images/avatar_720-vflYJnzBZ.png"
+              alt="avatar"
+              class="avatar"
+            />
+            <p class="commentP">Add a public comment</p>
+          </div>
+          <div class="comments">
+            <div class="comment">
+              <img
+                height="48px"
+                width="48px"
+                src="./images/avatar_720-vflYJnzBZ.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="comment-texts">
+                <h4 class="commenterName">User Name</h4>
+                <p class="timeAGo">2 Hours ago</p>
+                <p class="commentText">good movie :P</p>
+              </div>
             </div>
-            <div class="saving">
-              <img src="./images/playlist-plus.svg" alt="save" class="save" />
-              <p>SAVE</p>
+            <div class="comment">
+              <img
+                height="48px"
+                width="48px"
+                src="./images/avatar_720-vflYJnzBZ.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="comment-texts">
+                <h4 class="commenterName">Another User Name</h4>
+                <p class="timeAGo">2 years ago</p>
+                <p class="commentText">bad movie :(</p>
+              </div>
+            </div>
+            <div class="comment">
+              <img
+                height="48px"
+                width="48px"
+                src="./images/avatar_720-vflYJnzBZ.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="comment-texts">
+                <h4 class="commenterName">User Name 3</h4>
+                <p class="timeAGo">2 weeks ago</p>
+                <p class="commentText">nice movie :)</p>
+              </div>
+            </div>
+            <div class="comment">
+              <img
+                height="48px"
+                width="48px"
+                src="./images/avatar_720-vflYJnzBZ.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="comment-texts">
+                <h4 class="commenterName">User</h4>
+                <p class="timeAGo">2 months ago</p>
+                <p class="commentText">another movie :/</p>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="info"></div>
-        <div class="subscribe"></div>
-        <div class="comments"></div>
       </div>
-      <div class="rightColumn"></div>
+      <div class="rightColumn">
+        <div class="recommend">
+          <div class="recommend-img">
+            <img
+              width="168"
+              src="https://i.ytimg.com/vi/lAeoaU2i-Xc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBTLml21tRQ_tiroese3HnxXSJ9Jg"
+              alt="recomended"
+              class="recommend-thumbnail"
+            />
+          </div>
+          <div class="recommend-text">
+            <h4>some ezel</h4>
+            <p>ezel</p>
+            <p>121M views • 7 years ago</p>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="recommend-img">
+            <img
+              width="168"
+              src="https://i.ytimg.com/vi/lAeoaU2i-Xc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBTLml21tRQ_tiroese3HnxXSJ9Jg"
+              alt="recomended"
+              class="recommend-thumbnail"
+            />
+          </div>
+          <div class="recommend-text">
+            <h4>some ezel</h4>
+            <p>ezel</p>
+            <p>121M views • 7 years ago</p>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="recommend-img">
+            <img
+              width="168"
+              src="https://i.ytimg.com/vi/lAeoaU2i-Xc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBTLml21tRQ_tiroese3HnxXSJ9Jg"
+              alt="recomended"
+              class="recommend-thumbnail"
+            />
+          </div>
+          <div class="recommend-text">
+            <h4>some ezel</h4>
+            <p>ezel</p>
+            <p>121M views • 7 years ago</p>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="recommend-img">
+            <img
+              width="168"
+              src="https://i.ytimg.com/vi/lAeoaU2i-Xc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBTLml21tRQ_tiroese3HnxXSJ9Jg"
+              alt="recomended"
+              class="recommend-thumbnail"
+            />
+          </div>
+          <div class="recommend-text">
+            <h4>some ezel</h4>
+            <p>ezel</p>
+            <p>121M views • 7 years ago</p>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="recommend-img">
+            <img
+              width="168"
+              src="https://i.ytimg.com/vi/lAeoaU2i-Xc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBTLml21tRQ_tiroese3HnxXSJ9Jg"
+              alt="recomended"
+              class="recommend-thumbnail"
+            />
+          </div>
+          <div class="recommend-text">
+            <h4>some ezel</h4>
+            <p>ezel</p>
+            <p>121M views • 7 years ago</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

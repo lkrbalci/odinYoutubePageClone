@@ -46,37 +46,77 @@ header {
     position: fixed;
     left: 0;
     right: 0;
-    height: 56px;
-    background-color: red;
+    height: 40px;
     width: 94%;
     margin: 0 auto;
     top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+header img {
+  height: 24px;
+  color: grey;
+  margin: 10px;
+  fill: grey;
+
+}
+
+svg {
+  fill: grey
+}
+
+header button {
+  height: 30px;
+  margin: 0;
+  background-color: white;
+  border: 1px solid grey;
+  border-left: none;
+  align-items: center;
+}
+
+button img {
+  margin: 2px auto;
+}
+
+header input {
+  box-sizing: border-box;
+  height: 30px;
+  width: 500px;
+  margin: 0;
+  border: 1px solid rgba(80, 80, 80, 0.5);
+  box-shadow: inset 0px 1px 1px 0px rgba(80, 80, 80, 0.2);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
 .columns {
     width: 94%;
     height: 100vh;
     margin: auto;
-    background-color: chocolate;
 }
 
 .mainColumn {
   float:left;
     width: 70%;
-    background-color: brown;
-    height: 800px;
+    height: 1200px;
     margin-top: 56px;
 }
 
 .rightColumn {
   float: left;
     width:29%;
-    background-color: crimson;
     margin-left: 1%;
     height: 800px;
     margin-top: 56px;
 }
 .frame {
-  padding: 6%;
+  margin: 1% 6%;
+
 }
 
 .tags {
@@ -88,7 +128,7 @@ header {
 }
 
 h3 {
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: 400;
   margin-bottom: 10px;
   opacity: 0.7;
@@ -103,9 +143,169 @@ h3 {
 .info {
   display: flex;
   justify-content: space-between;
+  margin: 1% 6%;
+  border-bottom: 2px solid grey;
+}
+
+.info div {
+  display: flex;
+  float: left;
+  align-items: center;
+justify-content: space-between;
+
 }
 
 .info div * {
+  margin: 3px;
+}
+
+.thumbs {
+  border-bottom: 2px solid grey;
+}
+
+.dislikes {
+  padding-left: 40px;
+}
+
+.secondaryInfo {
+  margin: 1% 6%;
+  border-bottom: 2px solid grey;
   float: left;
-  align-items: center;
+}
+
+.secondaryInfo * {
+  display: inline;
+  float: left;
+  padding: 5px 2px
+}
+
+.channelTitle * {
+  float: none;
+  display: block;
+  margin: 1% 5%;
+}
+
+.channelImage {
+  border-radius: 50%;
+}
+
+.subscribeButton {
+  height: 40px;
+  width: 100px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  float: right;
+ margin-right: 10px
+}
+
+.detailText {
+  margin-top: 30px;
+  width: 610px
+}
+
+.commentsDiv {
+  display: block;
+  margin: 1% 6%;
+  margin-right: 0;
+  float: left;
+}
+
+.commentHeader * {
+  float: left;
+  justify-content: center;
+  margin: 3px 5px
+}
+
+.replyNum {
+  margin-right: 40px;
+}
+
+.sort  {
+  margin: 0 5px
+}
+
+.replyNum {
+  font-size: 1.2em;
+}
+
+.sortText {
+  opacity: 0.7;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.addComment {
+  float:left;
+  margin: 20px 10px
+}
+
+.addComment * {
+  float: left;
+}
+
+.commentP {
+  border-bottom: 2px solid grey;
+  margin: 10px;
+  padding: 5px 0;
+  margin-right: 0;
+  width: 712px
+}
+
+.comments {
+  margin-top: 50px;
+  margin: 20px 10px;
+}
+
+
+.comment {
+  display: block;
+  margin-top: 20px
+}
+
+
+.comment * {
+  display: inline-block;
+}
+
+.comment-texts {
+  margin: 10px;
+}
+
+.commenterName {
+  font-weight: bold;
+}
+
+.timeAGo {
+  opacity: 0.6;
+}
+
+.commentText {
+  display: block;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.recommend > * {
+  display: inline-block;
+}
+
+.recommend {
+  margin: 8px
+}
+
+.recommend-text {
+  vertical-align: top;
+  /* height: 56px */
+}
+
+.recommend-text h4 {
+  font-weight: bold;
+}
+
+.recommend-text p {
+  color: rgba(80, 80, 80, 0.5);
 }
